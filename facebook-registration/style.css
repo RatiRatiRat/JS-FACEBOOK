@@ -1,0 +1,93 @@
+body{
+    background-color: #f0f2f5;
+}
+
+
+form{
+    width: 300px;
+    height: 290px;
+    background-color: #fff;
+    border-radius: 5px;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+div.Re-Form{
+    /* display: flex;
+    justify-content: flex-end; */
+    margin-top: 100px;
+}
+
+div.grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+}
+
+div.heading{
+    margin-top: 150px;
+    margin-left: 450px;
+}
+
+
+input{
+    width: 240px;
+    height: 40px;
+    margin-top: 30px;
+    margin-left: 25px;
+    outline: none;
+}
+
+h1{
+    width: 200px;
+    height: 30px;
+    color: blue;
+    font-size: 50px;
+    font-family: sans-serif;
+}
+
+p{
+    width: 300px;
+    height: 104px;
+    color: black;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+a.create{
+    display: grid;
+    width: 250px;
+    height: 30px;
+    text-decoration: none;
+    background-color: blue;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    margin-top: 30px;
+    margin-left: 25px;
+    justify-items: center;
+}
+
+
+div.line{
+    width: 250px;
+    height: 1px;
+    background-color: black;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+a.createnew{
+    display: grid;
+    width: 250px;
+    height: 30px;
+    text-decoration: none;
+    background-color: green;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    margin-top: 15px;
+    margin-left: 25px;
+    justify-items: center;
+}
+

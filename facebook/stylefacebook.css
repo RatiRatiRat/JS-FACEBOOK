@@ -1,0 +1,229 @@
+body{
+    margin: 0%;
+    overflow: hidden;
+}
+
+
+div.main{
+    width: 1520px;
+    height: 750px;
+    background-color: lightgrey;
+}
+
+div.navbar{
+    width: 1520px;
+    height: 60px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+img.facebook{
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    margin-left: 40px;
+}
+
+h1.home{
+    margin-left: 550px;
+}
+h1.messenger{
+    margin-left: 500px;
+}
+h1.Tv{
+    margin-left: 20px;
+}
+h1.Games{
+    margin-left: 20px;
+}
+h1.Profile{
+    margin-left: 20px;
+}
+h1.notification{
+    margin-left: 20px;
+}
+
+div.testimonials{
+  width: 350px;
+  height: 650px;
+  background-color: lightgrey;
+  padding-top: 10px;
+}
+
+h1.friends{
+    font-size: 25px;
+    margin-left: 38px;
+    font-family: sans-serif;
+}
+h1.saved{
+    font-size: 25px;
+    margin-left: 38px;
+}
+h1.games2{
+    font-size: 25px;
+    margin-left: 38px;
+}
+h1.memories{
+    font-size: 25px;
+    margin-left: 38px;
+}
+h1.groups{
+    font-size: 25px;
+    margin-left: 38px;
+}
+div.line{
+    height: 3px;
+    width: 350px;
+    background-color: black;
+}
+
+div.News{
+  display: grid;
+  grid-template-columns: 350px 800px 350px;
+}
+
+div.feed{
+   width: 1000px;
+   height: 650px;
+   background-color: grey;
+   overflow-y: scroll;
+}
+
+div.contacts{
+    width: 300px;
+    height: 650px;
+    background-color: lightgrey;
+}
+div.line2{
+    height: 3px;
+    width: 367px;
+    background-color: black;
+}
+
+div.Post{
+    width: 480px;
+    height: 100px;
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 170px;
+    margin-top: 30px;
+}
+
+input.post{
+    width: 450px;
+    height: 30px;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+div.line3{
+    width: 480px;
+    height: 1px;
+    background-color: black;
+    margin-top: 8px;
+}
+
+div.shortcuts{
+    width: 480px;
+    height: 40px;
+    display: flex;
+    background-color: transparent;
+    margin-top: 0px;
+}
+
+h1.add{
+    font-size: 15px;
+    margin-left: 30px;
+}
+
+div.popup{
+    
+    width:400px;
+    height: 400px;
+    display: none;
+    background-color: white;
+    border: 5px;
+    border-radius: 8px;
+    outline-color: transparent;
+    border-color: white;
+    margin-top: 10px;
+    margin-left: 210px;
+}
+
+input.post2{
+    width: 395px;
+    height: 200px;
+    background-color: whitesmoke;
+    border-radius: 8px;
+
+}
+
+.post2::placeholder {
+    vertical-align: baseline; /* Align placeholder text to the baseline */
+}
+
+span.hatch{
+    color: black;
+}
+
+div.popup-testimonials{
+    border-radius: 8px;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+
+span{
+    margin-left: 15px;
+}
+
+button.addpost{
+    width: 350px;
+    height: 40px;
+    background-color: blue;
+    color: azure;
+    border-radius: 3px;
+    margin-top: 30px;
+    margin-left: 26px;
+}
+.popup-header{
+    display: flex;
+}
+.create{
+    margin-left: 85px;
+}
+.delete{
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+h1:hover{
+    background-color: white; /* Background color on hover */
+    border-radius: 2px;
+}
+
+.P{
+    width: 450px;
+    height: 200px;
+    margin-top: 25px;
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    border-radius: 10px;
+    margin-left: 170px;
+    font-size: 13px;
+    font-family: sans-serif;
+}
+
+h4{
+    margin-left: 420px;
+    cursor: pointer;
+    margin-top: 0px;
+    font-size: 15px;
+}
+
+h2{
+    margin-top: 100px;
+    margin-left: 10px;
+    font-size: 18px;
+}
